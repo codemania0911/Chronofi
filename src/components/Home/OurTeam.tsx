@@ -211,7 +211,7 @@ function OurTeam() {
                 <MmenuItem><a href="#roadmap">ROADMAP</a></MmenuItem>
                 <MmenuItem><a href="#feature">FEATURES</a></MmenuItem>
                 <MmenuItem><a href="#team">TEAM</a></MmenuItem>
-                <MmenuItem><a href="#team">WHITEPAPER</a></MmenuItem>
+                <MmenuItem><a href="./Whitepaper.pdf">WHITEPAPER</a></MmenuItem>
             </MenuContainer>
             <IconList>
                 <SocialTag target="_blank" href=""><SocialIcon src={telegramIcon} ></SocialIcon></SocialTag>
