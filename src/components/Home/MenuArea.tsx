@@ -95,7 +95,7 @@ const MenuArea: React.FC<MenuAreaProps> = ({ displayMenu, connectMetaMask, accou
             <MmenuItem><a href="#feature">FEATURES</a></MmenuItem>
             <MmenuItem><a href="#team">TEAM</a></MmenuItem>
             <MmenuItem><a href="./Whitepaper.pdf">WHITEPAPER</a></MmenuItem>
-            <MmenuItem><a href="#team">LAUNCH APP</a></MmenuItem>
+            <MmenuItem onClick={(e) => alert('Coming Soon')}>LAUNCH APP</MmenuItem>
             {/* <MmenuItem1 onClick={connectMetaMask}>{accountID}</MmenuItem1> */}
             {/* {!displayMenu &&
                 <div style={{ display: 'flex', flexDirection: 'row' }}>

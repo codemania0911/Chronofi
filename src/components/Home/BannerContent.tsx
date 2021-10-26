@@ -117,6 +117,7 @@ const SocialIcon = styled.img`
 `
 const BottomImage = styled.img`
     position:absolute;
+    pointer-events: none;
     bottom:0px;
     width:100%;
     height:15rem;
@@ -140,6 +141,10 @@ const IconList = styled.div`
     }
 `
 
+const YoutubeLink = styled.a`
+    margin: 0;
+`
+
 function BannerContent() {
     const classes = useStyles();
     return (
@@ -149,11 +154,11 @@ function BannerContent() {
                 <ContainerTitle>
                     Monster come to invade earth, Robots save the earth.
                 </ContainerTitle>
-                <PlayIcon src={buttonplay} ></PlayIcon>
+                <YoutubeLink target="_blank" href="https://www.youtube.com/watch?v=Z7D4mRC84HQ"><PlayIcon src={buttonplay} ></PlayIcon></YoutubeLink>
                 <IconList>
-                    <SocialTag target="_blank" href=""><SocialIcon src={telegramIcon} ></SocialIcon></SocialTag>
-                    <SocialTag target="_blank" href=""><SocialIcon src={onlineIcon} ></SocialIcon></SocialTag>
-                    <SocialTag target="_blank" href=""><SocialIcon src={twitterIcon} ></SocialIcon></SocialTag>
+                    <SocialTag target="_blank" href="https://t.me/chronofi"><SocialIcon src={telegramIcon} ></SocialIcon></SocialTag>
+                    <SocialTag target="_blank" href="https://chronofi.medium.com/"><SocialIcon src={onlineIcon} ></SocialIcon></SocialTag>
+                    <SocialTag target="_blank" href="https://twitter.com/chronofi_"><SocialIcon src={twitterIcon} ></SocialIcon></SocialTag>
                 </IconList>
                 <BottomImage src={landingBottom} ></BottomImage>
             </BottomContainer>

@@ -163,6 +163,7 @@ const FooterImageArea = styled.div`
     display:flex;
     justify-content:end;
     margin-top:-120px;
+    pointer-events: none;
     padding-bottom:50px;
     @media (max-width: 880px) {
         width:0%;
@@ -214,9 +215,9 @@ function OurTeam() {
                 <MmenuItem><a href="./Whitepaper.pdf">WHITEPAPER</a></MmenuItem>
             </MenuContainer>
             <IconList>
-                <SocialTag target="_blank" href=""><SocialIcon src={telegramIcon} ></SocialIcon></SocialTag>
-                <SocialTag target="_blank" href=""><SocialIcon src={onlineIcon} ></SocialIcon></SocialTag>
-                <SocialTag target="_blank" href=""><SocialIcon src={twitterIcon} ></SocialIcon></SocialTag>
+                <SocialTag target="_blank" href="https://t.me/chronofi"><SocialIcon src={telegramIcon} ></SocialIcon></SocialTag>
+                <SocialTag target="_blank" href="https://chronofi.medium.com/"><SocialIcon src={onlineIcon} ></SocialIcon></SocialTag>
+                <SocialTag target="_blank" href="https://twitter.com/chronofi_"><SocialIcon src={twitterIcon} ></SocialIcon></SocialTag>
             </IconList>
             <FooterTxt>
                 COPYRIGHT 2021 CHRONOFI

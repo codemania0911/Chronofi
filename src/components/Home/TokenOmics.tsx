@@ -53,7 +53,7 @@ const TopTitle = styled.h1`
     margin:0;
     color:white;
     font-size:50px;
-    margin-top:-90px;
+    margin-top:-250px;
     @media (max-width: 1250px) {
         margin-top:0px;
     }
